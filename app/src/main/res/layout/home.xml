@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/my_button"
+            android:text="Search" />
+
+        <Button
+            android:layout_width="0dip"
+            android:id="@+id/signup"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_button"
+            android:text="Signup"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="0dip"
+            android:id="@+id/login"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_button"
+            android:text="Login"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dip"
+            android:id="@+id/donor_list1"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:text="Donor List"
+            android:background="@drawable/my_button"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/my_button"
+            android:text="Contact"
+            android:id="@+id/contact"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="0dip"
+            android:id="@+id/about"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:text="About"
+            android:background="@drawable/my_button"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
